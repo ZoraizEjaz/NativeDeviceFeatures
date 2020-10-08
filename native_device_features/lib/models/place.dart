@@ -6,11 +6,11 @@ class PlaceLocation {
   final double longitude;
   final String address;
 
-  PlaceLocation(
+  PlaceLocation({
     @required this.latitude,
     @required this.longitude,
     this.address,
-  );
+  });
 }
 
 class Place {
@@ -19,10 +19,10 @@ class Place {
   final PlaceLocation address;
   final File image;
 
-  Place(
+  Place({
     @required this.id,
     @required this.title,
     @required this.address,
     @required this.image,
-  );
+  });
 }
