@@ -12,12 +12,14 @@ class DBHelper {
   }
 
   static Future<void> insert(String table, Map<String, Object> data) async {
+    print('calling db');
     final db = await DBHelper.database();
     db.insert(
       table,
       data,
       conflictAlgorithm: sql.ConflictAlgorithm.replace,
     );
+    print('value_inserted: ');
   }
 
   static Future<List<Map<String, dynamic>>> getData(String table) async {
