@@ -24,6 +24,8 @@
 	<string>Need to get your location</string>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>Need to get your location</string>
+	<key>io.flutter.embedded_views_preview</key>
+	<true/>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSPhotoLibraryUsageDescription</key>

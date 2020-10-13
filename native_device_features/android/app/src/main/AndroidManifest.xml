@@ -10,6 +10,9 @@
         android:name="io.flutter.app.FlutterApplication"
         android:label="native_device_features"
         android:icon="@mipmap/ic_launcher">
+
+         <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyB0I3kn6jzPEBSAs61C1gtP6mWQy6E_CFQ"/>
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
